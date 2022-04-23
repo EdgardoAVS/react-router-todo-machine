@@ -1,0 +1,13 @@
+.TodoCounter {
+  font-size: 36px;
+  text-align: center;
+}
+
+.TodoCounter-h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TodoCounter-h2 span {
+  color: #D41F32;
+}

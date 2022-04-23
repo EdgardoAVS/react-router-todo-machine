@@ -1,0 +1,79 @@
+.ModalBackground {
+  background: rgba(121, 84, 84, 0.5);
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 33px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 26px;
+  color: #000;
+}
+
+textarea {
+  background-color: #F9FBFC;
+  border: 1px solid #770202;
+  border-radius: 2px;
+  color: #1E1E1F;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+color: #a5a5a5;
+}
+
+textarea:focus {
+  outline-color: #FF3C52;
+}
+
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm-button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  width: 120px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+}
+
+.TodoForm-button--add {
+  background-color: #FF3C52;
+}
+
+.TodoForm-button--cancel {
+  background: transparent;
+}
