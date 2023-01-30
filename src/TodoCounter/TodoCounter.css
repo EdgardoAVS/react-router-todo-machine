@@ -11,3 +11,7 @@
 .TodoCounter-h2 span {
   color: #D41F32;
 }
+
+.TodoCounter-h2--loading {
+  opacity: 25%;
+}
