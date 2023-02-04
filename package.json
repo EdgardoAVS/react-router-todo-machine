@@ -1,5 +1,5 @@
 {
-  "name": "curso-intro-react",
+  "name": "react-router-todo-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -41,5 +42,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homepage": "https://edgardoavs.github.io/curso-intro-react"
+  "homepage": "https://edgardoavs.github.io/react-router-todo-machine"
 }

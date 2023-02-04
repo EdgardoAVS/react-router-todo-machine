@@ -19,6 +19,7 @@ form {
   padding: 33px 40px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 label {
@@ -42,7 +43,7 @@ textarea {
 }
 
 textarea::placeholder {
-color: #a5a5a5;
+  color: #a5a5a5;
 }
 
 textarea:focus {

@@ -9,6 +9,7 @@
 
 .TodoItem-p {
   margin: 24px 0 24px 24px;
+  padding-left: 20px;
   width: calc(100% - 120px);
   font-size: 18px;
   line-height: 24px;
@@ -36,10 +37,19 @@
   position: absolute;
   left: 4px;
 }
+
 .Icon-check--active {
+  color: #9f0000;
+}
+
+.Icon-check--edit {
   color: #9f0000;
 }
 
 .Icon-delete:hover {
   color: #9f0000;
+}
+
+.Icon-edit:hover {
+  color: #98bad1;
 }
